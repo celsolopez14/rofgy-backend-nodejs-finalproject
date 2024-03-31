@@ -3,7 +3,7 @@ services:
   mongodb:
     image: mongo
     ports:
-      - '27017:27017'
+      - '27018:27018'
 
   socialmediadashboard:
     build: .
@@ -14,4 +14,4 @@ services:
       - mongodb
     environment:
       PORT: 3000
-      SECRET_KEY: 'your_secret_key'
+      SECRET_KEY: 'MTc3NTUtY2Vsb3Bl'
